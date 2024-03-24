@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./1.js"></script>
+</head>
+<body>
+    <main class="mainImg1" id = "main">
+      <button  id = "buttonForAudio" onclick="audioMain1.play()"> <img  onclick = "audioMain" height="50px" width="50px" src="./img/audio.png" ></button>
+      <audio id="audioMain1" src="./audio/audioMain.mp3"></audio>
+        <div class="score" id = "score">Score: 0</div>
+        <div class="score" id="money">Money: 0</div>
+        <div class="boxEnemies">
+          <div class="boxEnemy" id="boxEnemy1">
+            <button class="lineEnemy" id="lineEnemy1"></button>
+            <div id = "enemySmall"><img height="200px" width="200px" src="./img/small1.png"></div>
+          </div>
+          <div class="boxEnemy" id="boxEnemy2">
+            <button class="lineEnemy" id="lineEnemy2"></button>
+            <div id = "enemyBig"><img height="400px" width="200px" src="./img/big1.png"></div>        
+          </div>
+          <div class="boxEnemy" id="boxEnemy3">
+            <button class="lineEnemy" id="lineEnemy3"></button>
+            <div id = "enemySmall"><img height="200px" width="200px" src="./img/small1.png"></div>
+          </div>
+        </div>
+
+       <div class="boxing"> 
+        <div class="box">
+          <div class="lifeLine">
+            <div class="lifeLine1" id="lifeLine"></div>
+          </div>
+
+          <div class = "capabilities">
+            <button class="btn" id="sword"><img height="40px" width = "40px" id="swordImage" src="./img/sword.png">ЛКМ</button>
+            <button class="btn" id = "potion"><img height="40px" width = "40px" src="./img/potion.png">Q</button>
+          </div>
+          </div>
+          
+          <div class="hero">
+            <div id = "hero1"><img id = "heroImg" width="100px" height="100px"  src="./img/swordIcon.png"></div>
+            <div id = "hero2"><img id = "heroImg1" width="100px" height="100px"  src="./img/swordIcon.png"></div>
+          </div>
+        </div>
+        <a href="./level3.html" id="arrow"></a>
+    </main>
+</body>
+</html>

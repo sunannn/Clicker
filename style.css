@@ -1,0 +1,185 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mainImg {
+background-image: url(./img/start.jpg);
+background-image: url(./img/level1.jpg);
+}
+.mainImg1{
+    background-image: url(./img/level2.jpg);
+}
+.mainImg2{
+    background-image: url(./img/level3.jpg);
+}
+.button {
+    margin-left: 45%;
+    position: absolute;
+    width: 200px;
+    font-size: 50px;
+    background-color:#3a1818;
+    color: #d8d8d8;
+    border-radius: 18px;
+}
+#main, #main1, #main2, .mainImg {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.score {
+    padding: 1vh;
+    height: 3vh;
+    font-size: 40px;
+    color: rgb(205, 202, 199);
+}
+
+.enemies {
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+#heroImg {
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(0 0 5px black);
+}
+.boxing {
+    margin-top: 7vh;
+    height: 20vh;
+    gap: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    background-color: rgb(43 45 69);
+    border-radius: 10px;
+}
+.capabilities {
+    height: 70px;
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.box {
+    display: flex;
+    height: 8vh;
+    width: 220px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 9vh;
+}
+.lifeLine {
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    border-color: black;
+    border-radius: 2px;   
+}
+.lifeLine1, .lineEnemy {
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    background-color: rgb(201, 38, 38);
+    border-radius: 5px;
+}
+.boxEnemies{
+    margin-top: 15vh;
+    height: 45vh;
+    width: 100%;
+    display: inline-block;
+}
+.boxEnemy{
+    position: absolute;
+    width: 200px;
+    height: 225px;
+}
+#boxEnemy1{
+    left: 12vw;
+}
+#boxEnemy2{
+    left: calc(50vw - 100px);
+    height: 425px;
+}
+#boxEnemy3{
+    right: 12vw;
+}
+#arrow{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: none;
+    background-image: url(./img/arrow.png);
+    background-size: 100px 100px;
+    bottom: 3vh;
+    right: 3vw;
+}
+.boxingShop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(./img/shop.gif);
+}
+.buttonShop {
+    background-color : #efdf99;
+    height: 100px;
+    width: 500px;
+    font-size: 28px;
+    align-items: center;   
+}
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    width: 600px;
+    background-color: #3b2ba3 ;
+    opacity: 80%;
+    border-radius: 20px;
+}
+.imgShop {      
+    opacity: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+}
+#level1 {
+    background-color: #3b2ba3 ;
+    translate: 170px;
+    height: 100px;
+    width: 150px;
+}
+@keyframes example {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(80deg);}
+  }
+  
+  .animated-element {
+   
+    animation: example 2s linear infinite
+  }
+  @keyframes example1 {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(-80deg);}
+  }
+  
+  .animated-element1 {
+   
+    animation: example1 2s linear infinite
+  }
+  #buttonForAudio {
+    position: fixed;
+    background-color: rgb(131, 78, 245);
+    margin-left: 95%;
+}
